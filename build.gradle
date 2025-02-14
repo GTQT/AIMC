@@ -153,6 +153,7 @@ dependencies {
     }
     implementation 'com.squareup.okio:okio:3.9.0'
     implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.9.23' // 显式添加 Kotlin 标准库
+    implementation 'com.google.code.gson:gson:2.10.1' // 请使用最新版本
 }
 shadowJar {
     dependencies {
